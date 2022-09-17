@@ -2,12 +2,11 @@
 Updater Helper - Enyo
  Version 0.2
  Created: 2022
- Author: Jonathan Wise
  License: MIT
  Description: A helper to check for and get updates from App Museum II web service.
     Does not require App Museum to be installed, but does require internet access, and Preware to do the actual install.
  Source: Find the latest version of this library and clean samples of how to use it on GitHub:
-    https://github.com/codepoet80/webos-common
+    https://github.com/webosarchive/webos-common
 */
 
 enyo.kind({

@@ -4,7 +4,7 @@
 
 Enyo-based App Catalog for legacy webOS, forked from App Museum. You can use this app on a Pre3 or Touchpad, or access the catalog in a browser at [http://appcatalog.webosarchive.com](http://appcatalog.webosarchive.com)
 
-Back-end and additional documentation here: [https://github.com/codepoet80/webos-catalog-backend](https://github.com/codepoet80/webos-catalog-backend)
+Back-end and additional documentation here: [https://github.com/webosarchive/webos-catalog-backend](https://github.com/webosarchive/webos-catalog-backend)
 
 ## What is This?
 
