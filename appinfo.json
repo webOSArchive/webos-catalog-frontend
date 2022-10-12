@@ -1,6 +1,6 @@
 {
     "id": "com.palm.app-museum2",
-    "version": "2.9.2",
+    "version": "2.9.3",
     "versionNote": "LuneOS fixes and enhancements",
     "lastModifiedTime": "2020-12-04T13:04:48-04:00",
     "vendor": "webOS Archive",
@@ -15,7 +15,7 @@
     "universalSearch": {
         "search": {
             "displayName": "WebOS App Museum II",
-            "url": "appcatalog.webosarchive.com",
+            "url": "appcatalog.webosarchive.org",
             "launchParam": { "common": { "sceneType": "search", "params": { "type": "query", "search": "#{searchTerms}" } } }
         }
     },

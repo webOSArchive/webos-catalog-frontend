@@ -84,7 +84,7 @@ window.setGlobal = banneret.setGlobal = function(key, variable) {
 
 banneret.factory_settings = {
     favourites: {},
-    baseImageURL: "http://appcatalog.webosarchive.com/AppImages/",
+    baseImageURL: "http://appcatalog.webosarchive.org/AppImages/",
     serviceBaseImageURL: "",
     catIconSize: banneret.getGlobal('isTouchpad') ? 1 : 0,
     appIconSize: banneret.getGlobal('isTouchpad') ? 1 : 0,
@@ -94,12 +94,12 @@ banneret.factory_settings = {
     firstUse: true,
     archiveUsage: true,
     archiveFTP: false,
-    archiveLocation: "packages.webosarchive.com/AppPackages",
+    archiveLocation: "packages.webosarchive.org/AppPackages",
     serviceArchiveLocation: "",
     archiveLoginName: "",
     archiveLoginPassword: "",
     archiveFileFormatting: 1,
-    detailLocation: "http://appcatalog.webosarchive.com/WebService/",
+    detailLocation: "http://appcatalog.webosarchive.org/WebService/",
     detailPage: "getMuseumDetails",
     masterPage: "getMuseumMaster",
     showPrice: false,
