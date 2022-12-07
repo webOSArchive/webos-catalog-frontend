@@ -1,6 +1,6 @@
 {
     "id": "com.palm.app-museum2",
-    "version": "2.9.3",
+    "version": "2.9.4",
     "versionNote": "LuneOS fixes and enhancements",
     "lastModifiedTime": "2020-12-04T13:04:48-04:00",
     "vendor": "webOS Archive",
@@ -19,5 +19,5 @@
             "launchParam": { "common": { "sceneType": "search", "params": { "type": "query", "search": "#{searchTerms}" } } }
         }
     },
-    "requiredPermissions": ["applications.internal", "applications", "activities.manage", "devices", "settings", "settings.read", "services", "database", "database.internal", "filecache", "system", "networking", "networking.internal"]
+    "requiredPermissions": ["appmanager.management", "preferences.system"]
 }
