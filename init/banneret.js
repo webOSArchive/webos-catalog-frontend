@@ -135,6 +135,13 @@ banneret.getPrefs = function(prefName) {
         banneret.global.prefs = banneret.factory_settings;
     } else {
         banneret.global.prefs = enyo.json.parse(enyo.getCookie(banneret.global.prefCookie));
+        //Handle TLD change
+        if (banneret.global.prefs["baseImageURL"].indexOf("webosarchive.com") != -1 || 
+                banneret.global.prefs["archiveLocation"].indexOf("webosarchive.com") != -1 ||
+                banneret.global.prefs["detailLocation"].indexOf("webosarchive.com") != -1
+            ) {
+            banneret.global.prefs = banneret.factory_settings;
+        }
     }
     if (prefName) {
         return banneret.global.prefs[prefName];
@@ -339,7 +346,6 @@ banneret.getMuseumList = function(settings, onSuccess, onError) {
     });
 
     var callString = JSON.stringify(settings);
-    console.log("*** callString is: " + callString);
     if (museumCalls[callString] === null) {
         return; // we know this call has been made, but the reponse is still pending.
         // thre is no need to make the call again.
